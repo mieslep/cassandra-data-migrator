@@ -29,7 +29,8 @@ tar -xvzf <spark downloaded file name>
 # Steps for Data-Migration:
 
 1. `sparkConf.properties` file needs to be configured as applicable for the environment
-   > A sample Spark conf file configuration can be [found here](./src/resources/sparkConf.properties)
+   * A sample Spark conf file configuration can be [found here](./src/resources/sparkConf.properties).
+   * A descrption of how to configure that file can be [found here](./ConfigDescrption.md).
 2. Place the conf file where it can be accessed while running the job via spark-submit.
 3. Run the below job using `spark-submit` command as shown below:
 
